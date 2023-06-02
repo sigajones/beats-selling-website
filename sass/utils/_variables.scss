@@ -1,2 +1,27 @@
+// Color
+
 $main-color: #fff;
 $secondary-color: #61CE70;
+$secondary-color-light: lighten($secondary-color, 10%);
+$secondary-color-lighter: lighten($secondary-color, 20%);
+
+// Fonts
+$crimson: 'Crimson Text', serif;
+
+// Font-size
+
+$h1-font-size: 3rem; // 48px
+$h2-font-size: 2.25rem; // 36px
+$h3-font-size: 1,875rem; // 30px
+$h4-font-size: 1.5rem; // 24px
+$h5-font-size: 1.3125rem; // 21px
+$h6-font-size: 1.125rem; // 18px
+$p-font-size: 1rem; // 16px
+$p-1-font-size: .875rem; // 14px
+$p-2-font-size: 0.75rem; // 12px
+
+// Font weight
+$font-medium: 500;
+$font-semi-bold: 600;
+$font-bold: 700;
+$font-black: 900;

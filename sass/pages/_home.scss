@@ -1,4 +1,32 @@
-main {
-    background-color: white;
-    min-height: 600px;
+// main {
+//     background-color: white;
+//     min-height: 600px;
+// }
+
+// HERO SECTION
+
+.hero {
+    // soustrait 65px (hauteur de la nav) à 100% de la page
+    @include section(2rem, calc(100vh - 65px));
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), transparent),
+        url(../img/promo-section/metro-boomin.jpg);
+    background-size: cover;
+    background-position: top;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: $crimson;
+    font-weight: $font-semi-bold;
+    h1 {
+        font-size: $h1-font-size;
+        margin-bottom: 50px;
+    }
+    h2 {
+        font-size: $h4-font-size;
+        margin-bottom: 10px;
+    }
+
+    
 }
+
